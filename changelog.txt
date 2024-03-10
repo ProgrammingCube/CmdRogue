@@ -1,0 +1,111 @@
+                     === CmdRogue ===
+
+by GinDiamond/TheWinnieston
+aka Patrick Jackson
+
+- Monster corpses draw over stairs
+- Monster corpses sometimes draw over other monsters
+- Figure out what that game blanking is about
+
+- 1.0.0.3a
+Fixed:
+	#Streamlined code to be more efficient
+	#Moved version code to separate file
+	#Moved large chunks of static code to separate
+	 files for code speed improvements
+
+Added:
+	#template.bat is now in use (had to fix setlocals)
+
+- 1.0.0.2b
+Fixed:
+	
+Added:
+	#Quit screen is now in!
+	#Monsters now give XP! Skill system will come soon.
+	#Under-the-hood code changes - leverages templates
+	 and more efficient methods
+KNOWN:
+	#Color isn't really a thing, I've been toying with
+	 it and still haven't found a good (fast) solution
+
+- 1.0.0.1s
+Fixed:
+	#Visual bugs/effects in the menus ironed out
+		- Aligned menu options
+		- Welcome message added
+	#Smarter Monster AI!
+		- Brain-dead bug that allowed monster stacking
+		- Monsters no longer generate in walls!
+Added:
+	#Code review!
+KNOWN:
+	#OTHER_MONSTER_FOUND is triggered even when just one
+	 monster is on the map
+	#Game can hang on map loading/generation
+***Picked back up!***
+
+- 1.0.0.0s
+***First stable release!***
+New:
+	#New map types! Included:
+		~Recursive backtracking algorithm
+		~City floor type
+		~Arena types (4 types, paying homage to DoomRL)
+Fixed:
+	#Floor generation now triggered on all stair updates!
+	#Fixed message format and message log issues!
+	#Monsters don't generate in weird places!
+Added:
+	#Version formatting code (for programming use only)
+
+- 0.0.1.3b
+New:
+	#Cave generation algorithm! Stairs now work!
+Fixed:
+	#Map now does initially print
+	#Hypotenuse code is now cut down
+	#Collision detection now used for all monster generation, removed posts
+Added:
+	#
+
+- 0.0.0.3b
+Second release! This one vastly improves upon the previous base code:
+New:
+	#
+Fixed:
+	#Monster combat bug- again a for /l statement bug
+	#Title screen typos
+	#Message log errors
+Added:
+	#
+
+- 0.0.0.2a
+First public release!
+New:
+	#Flashy new title screen!
+	#Difficulty options!
+	#More logical combat mechanics
+	#Debug mode option
+Fixed:
+	#Monster stacking bug- caused by pervasive for /l loop bug
+	#Message displays are more accurate
+	#Cleaned up root folder
+	#New code in parts
+Added:
+	#Alot more bugs
+
+- 0.0.0.1
+Initial test release
+
+
+
+==TODO==
+
+-Rewrite entire base code (before it gets WAY out of hand)
+-Optimize code for speed
+-Include random floor generator (currently being worked on)
+-More than 1 type of monster
+-Items
+-Inventory
+-Integrity

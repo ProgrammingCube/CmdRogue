@@ -1,0 +1,15 @@
+Welcome to CmdRogue
+ECHO is off.
+The monster hits you for 3 damage!         
+ECHO is off.
+The monster hits you for 3 damage!         
+ECHO is off.
+The monster hits you for 3 damage!         
+You hit the monster for 5 damage!
+The monster missed!            
+The monster hits you for 3 damage!         
+You hit the monster for 4 damage!
+ECHO is off.
+The monster hits you for 4 damage!         
+The monster hits you for 4 damage!         
+You descend a floor!
